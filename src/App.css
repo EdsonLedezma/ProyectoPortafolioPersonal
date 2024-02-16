@@ -1,38 +1,83 @@
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.main {
+  margin-top: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.profile img {
+  width: 200px;
+  border-radius: 50%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+/* Header.css */
+.header {
+  background-color: #333;
   color: white;
+  padding: 10px 0;
 }
 
-.App-link {
-  color: #61dafb;
+.header nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.header nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Footer.css */
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Projects.css */
+.projects {
+  margin-top: 50px;
+}
+
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.project {
+  width: 30%;
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.project h3 {
+  margin-top: 0;
+}
+
+.project p {
+  margin-bottom: 10px;
+}
+
+.project a {
+  color: #333;
+}
+.center{
+  text-align: center;
+}
+.habilidades-lista {
+  list-style-position: inside;
 }

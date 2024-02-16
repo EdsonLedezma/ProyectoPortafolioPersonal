@@ -1,0 +1,54 @@
+body {
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    margin: 250px;
+    background-color: #f0f0f0;
+    background-image: url('fondo.jpg');
+    background-size: 100% 100%; /* La imagen cubrirá completamente el fondo */
+    background-repeat: no-repeat; /* Evita la repetición de la imagen */
+}
+
+
+#ahorcado {
+    margin-top: 80px;
+}
+
+.adivinadas {
+    width: 100%;
+    text-align: center;
+}
+
+.incorrectas {
+    text-align: center;
+}
+
+#incorrectas-container {
+    position: fixed;
+    bottom: 10px;
+    left: 0;
+    width: 100%;
+}
+
+#controls-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+#controls-container input {
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
